@@ -1,4 +1,5 @@
 
+#Now with fewer slashes!
 #added a line in the second copy
 #Let's put a big title thingamajig here
 
@@ -9,9 +10,9 @@
 
 for filename in $*
 do 
-  echo "////////"
+  echo "////"
   echo $filename
-  echo "////////"
+  echo "////"
   cut -d',' -f2 $filename | sort | uniq
 done
 
