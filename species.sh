@@ -1,3 +1,5 @@
+#Nope, now with more slashes
+
 #Let's put a big title thingamajig here
 
 # extract the unique names of the animals from the zoo files
@@ -7,6 +9,7 @@
 
 for filename in $*
 do 
+  echo "//////"
   echo "////////"
   echo $filename
   echo "////////"
