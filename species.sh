@@ -1,4 +1,5 @@
-#Nope, now with more slashes
+
+#more slashes wins on top
 
 #Let's put a big title thingamajig here
 
@@ -9,10 +10,12 @@
 
 for filename in $*
 do 
-  echo "//////"
   echo "////////"
+=======
+  echo "////"
   echo $filename
-  echo "////////"
+  echo "////"
+#fewer slashes after the filename
   cut -d',' -f2 $filename | sort | uniq
 done
 
